@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main - Fizz Buzz code
@@ -7,7 +7,6 @@
  */
 int main(void)
 {
-
 	int i = 1;
 
 	while (i <= 100)
@@ -31,7 +30,6 @@ int main(void)
 		if (i != 100)
 		{
 			putchar(' ');
-
 		}
 		i++;
 	}
