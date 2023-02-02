@@ -7,8 +7,8 @@
 hash_table_t *hash_table_create(unsigned long int size)
 {
 	unsigned int i = 0;
-
 	hash_table_t *ht = malloc(sizeof(hash_table_t));
+
 	if (ht == NULL)
 	{
 		fprintf(stderr, "Error: malloc failed\n");
@@ -26,4 +26,3 @@ hash_table_t *hash_table_create(unsigned long int size)
 
 	return (ht);
 }
-
